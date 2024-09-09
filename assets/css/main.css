@@ -627,8 +627,7 @@ input, select, textarea {
 		.image:before {
 			pointer-events: none;
 			background-image: url("images/bhbh.jpg");
-			background-color: rgba(19, 21, 25, 0.5) ;
-			border-radius: 4px;
+			border-radius: 12px;
 			content: '';
 			display: block;
 			height: 100%;
@@ -1284,7 +1283,7 @@ input, select, textarea {
 			border-color: #ffffff;
 			border-top-width: 1px;
 			border-bottom-width: 1px;
-			max-width: 100%;
+			max-width: 660px;
 		}
 
 			#header .content .inner {
@@ -1306,10 +1305,8 @@ input, select, textarea {
 				}
 
 			#header .content p {
-				text-transform: uppercase;
-				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
-				line-height: 2;
+			font-size: 1.2rem;
+			text-align: left;
 			}
 
 		#header nav ul {
@@ -1692,4 +1689,3 @@ input, select, textarea {
 .video-description a:hover {
     text-decoration: underline;
 }
-
